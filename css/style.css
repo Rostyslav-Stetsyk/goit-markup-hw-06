@@ -296,7 +296,7 @@ img {
 
 .social-media-item .link {
     display: block;
-    background-color: var(--footer-icon-background);
+    background-color: var(--primary-brand-color);
     border-radius: 50%;
     width: 40px;
     height: 40px;
