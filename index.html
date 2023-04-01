@@ -404,6 +404,82 @@
             <use href="./images/icons.svg#close-modal"></use>
           </svg>
         </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form action="" class="modal-form">
+          <div class="form-item">
+            <label class="form-label" for="user-name">Name</label>
+            <div class="input-container">
+              <input
+                class="form-input user-name"
+                name="user-name"
+                type="text"
+                id="user-name"
+                required
+              />
+              <svg class="icon icon-person" width="18px" height="24px">
+                <use href="./images/icons.svg#person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-item">
+            <label class="form-label" for="phone-number">Phone</label>
+            <div class="input-container">
+              <input
+                class="form-input phone-number"
+                name="phone-number"
+                type="tel"
+                id="phone-number"
+                required
+              />
+              <svg class="icon icon-phone" width="18px" height="24px">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-item">
+            <label class="form-label" for="email">Email</label>
+            <div class="input-container">
+              <input
+                class="form-input email"
+                name="email"
+                type="email"
+                id="email"
+              />
+              <svg class="icon icon-email" width="18px" height="24px">
+                <use href="./images/icons.svg#email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-item">
+            <label class="form-label" for="comment">Comment</label>
+            <textarea
+              class="form-input comment"
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="form-item checkbox">
+            <input
+              class="form-checkbox visually-hidden"
+              type="checkbox"
+              name="conditions"
+              id="conditions"
+              value="true"
+              required
+            />
+            <label class="form-label checkbox" for="conditions">
+              <span class="checkbox-field">
+                <svg class="icon-tick" width="10px" height="8px">
+                  <use href="./images/icons.svg#tick"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the&nbsp;
+              <a href="#">Privacy Policy</a></label
+            >
+          </div>
+          <button class="form-button">Send</button>
+        </form>
       </div>
     </div>
 
@@ -451,6 +527,28 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="form-container">
+          <form class="form-subscribe">
+            <h2 class="subscribe-title">Subscribe</h2>
+            <div class="form-elements">
+              <input
+                type="email"
+                class="mail"
+                placeholder="E-mail"
+                name="email"
+                required
+              />
+              <div class="form-button-container">
+                <button type="submit" class="subscribe-button">
+                  Subscribe
+                </button>
+                <svg class="icon" width="24px" height="24px">
+                  <use href="./images/icons.svg#airplane"></use>
+                </svg>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
